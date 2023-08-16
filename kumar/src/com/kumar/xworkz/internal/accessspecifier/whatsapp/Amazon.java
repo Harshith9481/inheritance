@@ -2,10 +2,7 @@ package com.kumar.xworkz.internal.accessspecifier.whatsapp;
 
 public class Amazon {
 	
-	package com.xworkz.encapsulation.app;
-
-	public class Amazon {
-
+	
 		private String productName;
 	    private String sellerName;
 	    private double price;
@@ -131,7 +128,7 @@ public class Amazon {
 	    }
 
 	    public void setReturnAllowed(boolean isReturnAllowed) {
-	        this.isReturnAllowed = isReturnAllowed;
+	        this.isReturnAllowed=isReturnAllowed;
 	    }
 	}
 
