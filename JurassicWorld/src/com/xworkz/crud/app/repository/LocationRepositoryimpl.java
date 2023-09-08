@@ -28,6 +28,7 @@ public class LocationRepositoryimpl implements LocationRepository{
 			if(temp!=null && temp.equals(temp))
 			{
 				System.out.println("Location name is already exist...");
+				return true;
 			}
 		}
 		

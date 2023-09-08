@@ -25,7 +25,7 @@ public class PincodeRepositoryImpl implements PincodeRepository {
 			for(int index=0;index<this.position;index++)
 			{
 				int temp=this.city[index];
-				if(temp!=0 && temp==city);
+				if( temp==city);
 				{
 					System.err.println("pincode name is already exist...");
 					return true;

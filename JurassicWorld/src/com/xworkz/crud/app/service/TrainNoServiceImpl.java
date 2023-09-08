@@ -5,7 +5,6 @@ import com.xworkz.crud.app.repository.TrainNoRepository;
 public class TrainNoServiceImpl implements TrainNoService {
 
 	private TrainNoRepository trainNoRepository;
-	private int position;
 	
 	public TrainNoServiceImpl(TrainNoRepository trainNoRepository)
 	{

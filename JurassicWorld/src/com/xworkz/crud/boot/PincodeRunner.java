@@ -1,4 +1,4 @@
-package com.xworkz.crud.boot;
+3package com.xworkz.crud.boot;
 
 import com.xworkz.crud.app.repository.PincodeRepository;
 import com.xworkz.crud.app.repository.PincodeRepositoryImpl;

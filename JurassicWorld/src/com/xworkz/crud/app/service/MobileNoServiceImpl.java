@@ -24,6 +24,7 @@ private MobileNoRepository mobileNoRepository;
 		else
 		{
 			System.err.println("Mobile no is invalid, cannot save");
+			return true;
 		}
 		return false;
 	}
